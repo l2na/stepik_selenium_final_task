@@ -13,3 +13,4 @@ class ProductPageLocators():
     MATCH_NAME = (By.CSS_SELECTOR, '#messages .alert:nth-child(1) .alertinner:nth-child(2) > strong')
     BOOK_PRICE = (By.CSS_SELECTOR, '.product_main .price_color')
     MATCH_PRICE = (By.CSS_SELECTOR, '.alert-info .alertinner p strong')
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, '.alert:nth-child(1) .alertinner:nth-child(2) ')
