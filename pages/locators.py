@@ -6,10 +6,15 @@ class BasePageLocators():
     OPEN_BUSKET_BTN = (By.CSS_SELECTOR, ".basket-mini a.btn.btn-default")
     NOT_EMPTY_BASKET_BANNER = (By.CSS_SELECTOR, ".basket_summary")
     EMPTY_BASKET_MESSAGE = (By.CSS_SELECTOR, "#content_inner")
+    USER_ICON = (By.CSS_SELECTOR, ".icon-user")
 
 class LoginPageLocators():
     LOGIN_FORM = (By.CSS_SELECTOR, "#login_form")
     REGISTER_FORM = (By.CSS_SELECTOR, "#register_form")
+    EMAIL_FORM = (By.CSS_SELECTOR, "#id_registration-email")
+    PASSWORD_FORM = (By.CSS_SELECTOR, "#id_registration-password1")
+    REPEAT_PASSWORD = (By.CSS_SELECTOR, "#id_registration-password2")
+    REGISTER_BUTTON = (By.CSS_SELECTOR, '[name ="registration_submit"]')
 
 class ProductPageLocators():
     BASKET_BUTTON = (By.CSS_SELECTOR, ".btn-add-to-basket")
